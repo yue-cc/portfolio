@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Noto Sans TC', 'Micrsoft JhenHei', sans-serif;
+  box-sizing: border-box;
+}
+
+h6 {
+  font-weight: bold;
+  line-height: 1.68rem;
+  color: #4d4d4d;
+}
+
+#about {
+  background-image: url('../img/bg.jpg');
+  /* 固定圖片，製造視差效果 */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* work ---------------------------------------------------------------- */
+#work {
+  margin-top: 100px;
+}
+
+/* 標題 */
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #b55a30;
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  width: 1.5em;
+  height: 1px;
+  background-color: #b55a30;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 1.5em;
+  height: 1px;
+  background-color: #b55a30;
+}
+
+/* 技能v小標籤 */
+.badgecolor {
+  background-color: #efe1ce;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0 20px 0;
+}
+
+/* experience ---------------------------------------------------------- */
+#experience {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* 大頭照 */
+.profile_photo {
+  width: 200px;
+}
+
+.text {
+  height: 400px;
+  background: lightyellow;
+  text-align: center;
+}
+
+.h5 {
+  color: #b55a30;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.time {
+  color: #4d4d4d;
+  background: #eeeeee;
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+}
+
+.li {
+  list-style-type: none;
+  font-weight: 500;
+}
+
+/* contact ---------------------------------------------------------- */
+#contact {
+  background-color: #d8a46f;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
