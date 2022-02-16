@@ -92,7 +92,7 @@ h6 {
 
 .videobox {
   position: relative;
-  width: 100%;
+  width: auto;
   height: 0;
   padding-bottom: 56.25%;
 }
