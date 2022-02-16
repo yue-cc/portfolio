@@ -111,3 +111,12 @@ h6 {
   line-height: 1.428571429;
   border-radius: 15px;
 }
+
+#contact .mail a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#contact .mail a:visited {
+  color: #ffffff;
+}
